@@ -1,0 +1,61 @@
+.select2 {
+  position: relative !important;
+  flex: 1 1 auto !important;
+  width: 1% !important;
+  min-width: 0 !important;
+}
+
+.selection {
+  text-align: left !important;
+}
+
+.select2-selection--single, .select2-selection--multiple {
+  background-color: beige !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  height: 0 !important;
+}
+
+.select2-selection--single .select2-selection__rendered {
+    padding: .375rem .75rem !important;
+    line-height: 1.5 !important;
+    color: black !important;
+    background-color: beige !important;
+    border-radius: var(--bs-border-radius) !important;
+    border-top-left-radius: 0 !important;;
+    border-bottom-left-radius: 0 !important;;
+}
+
+.select2-selection--single .select2-selection__placeholder {
+  color: dimgray !important;
+}
+
+.select2-selection--single .select2-selection__arrow {
+  height: 100% !important;
+  width: 3vw !important;
+}
+
+.select2-selection--single .select2-selection__arrow b {
+  color: dimgray !important;
+  border-color: dimgray transparent transparent transparent !important;;
+}
+
+.select2-selection--single .select2-search__field {
+  border: 1px solid dimgray !important;
+}
+
+[type=search]  {
+  outline-offset: 0 !important;
+  color: dimgray !important;
+  outline: 0 !important;
+}
+
+.select2-results__option--highlighted {
+  background-color: dimgray !important;
+  color: white !important;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: dimgray;
+  color: white !important;
+}
